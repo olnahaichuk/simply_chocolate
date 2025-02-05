@@ -1,0 +1,157 @@
+/* =====Common Styles=====*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111111;
+  background: #fafafa;
+}
+.container {
+  width: 1168px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* =====/Common Styles=====*/
+/*=====Page Header Styles===== */
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  column-gap: 24px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.text-italic {
+  font-style: italic;
+}
+.menu-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+.menu-link.active {
+  color: #fd9222;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #fd9222;
+}
+/*=====/Page Header Styles===== */
+
+/*=====Hero Styles===== */
+.hero-container {
+  padding-top: 381px;
+  padding-bottom: 40px;
+  padding-left: 56px;
+  padding-right: 56px;
+  background-color: cadetblue;
+}
+.main-title {
+  max-width: 462px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+  color: #fff;
+}
+.buy-btn {
+  min-width: 144px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  border: none;
+  text-align: center;
+}
+.buy-btn:hover,
+.buy-btn:focus {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+.how-its-made {
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 100px;
+  padding: 14px 40px;
+}
+.how-its-made:hover,
+.how-its-made:focus {
+  color: #fd9222;
+}
+.scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+/*=====/Hero Styles===== */
+/*=====Benefits Section Styles===== */
+.benefits-list-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.benefits-list-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+/*=====/Benefits Section Styles===== */
+/*=====Ingridients Section Styles===== */
+
+/*=====/Ingridients Section Styles===== */
+.ingridients-section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
