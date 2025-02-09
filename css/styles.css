@@ -134,13 +134,36 @@ body {
 }
 /*=====/Hero Styles===== */
 /*=====Benefits Section Styles===== */
+.benefits {
+  background-color: #1e1823;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.benefits-container {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+.benefits-title {
+  display: none;
+}
 .benefits-list-title {
   font-weight: 600;
   font-size: 18px;
+  color: #fff;
 }
 .benefits-list-text {
   font-size: 14px;
   letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.benefits-list {
+  display: flex;
+  column-gap: 88px;
+}
+.benefits-item {
+  width: calc((100% - 2 * 88px) / 3);
 }
 /*=====/Benefits Section Styles===== */
 /*=====Ingridients Section Styles===== */
